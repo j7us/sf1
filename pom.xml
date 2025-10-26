@@ -11,6 +11,7 @@
     <modules>
         <module>storage</module>
         <module>bankAccount</module>
+        <module>averagecalculator</module>
     </modules>
 
     <properties>
