@@ -22,9 +22,7 @@ public class ComplexMultiThreadProcessing {
             final int end = (i + 1) * chunkSize;
             threads[i] = new Thread(() -> {
                 for (int j = start; j < end; j++) {
-                    synchronized (ComplexMultiThreadProcessing.class) {
-                        sum += data[j];
-                    }
+                    add(data[j]);
                 }
             });
             threads[i].start();
@@ -39,5 +37,9 @@ public class ComplexMultiThreadProcessing {
         }
 
         System.out.println("Sum of all elements: " + sum);
+    }
+
+    private static synchronized void add(int dataValue) {
+        sum += dataValue;
     }
 }
