@@ -15,6 +15,7 @@
         <module>multithreading</module>
         <module>synchronize</module>
         <module>date</module>
+        <module>synchronize2</module>
     </modules>
 
     <properties>
