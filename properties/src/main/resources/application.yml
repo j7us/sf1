@@ -1,0 +1,2 @@
+address-client:
+  url: http://localhost:8080/address

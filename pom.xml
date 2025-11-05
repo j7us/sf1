@@ -18,6 +18,7 @@
         <module>synchronize2</module>
         <module>synchronize3</module>
         <module>functional</module>
+        <module>properties</module>
     </modules>
 
     <properties>
