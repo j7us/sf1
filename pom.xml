@@ -17,6 +17,7 @@
         <module>date</module>
         <module>synchronize2</module>
         <module>synchronize3</module>
+        <module>functional</module>
     </modules>
 
     <properties>
