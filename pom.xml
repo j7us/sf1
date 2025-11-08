@@ -19,6 +19,7 @@
         <module>synchronize3</module>
         <module>functional</module>
         <module>properties</module>
+        <module>hoar</module>
     </modules>
 
     <properties>
