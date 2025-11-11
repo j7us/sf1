@@ -20,6 +20,7 @@
         <module>functional</module>
         <module>properties</module>
         <module>hoar</module>
+        <module>hoararray</module>
     </modules>
 
     <properties>
