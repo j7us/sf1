@@ -21,6 +21,7 @@
         <module>properties</module>
         <module>hoar</module>
         <module>hoararray</module>
+        <module>quicksorthoar</module>
     </modules>
 
     <properties>
