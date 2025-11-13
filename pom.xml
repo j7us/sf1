@@ -23,6 +23,7 @@
         <module>hoararray</module>
         <module>quicksorthoar</module>
         <module>code</module>
+        <module>coda2</module>
     </modules>
 
     <properties>
